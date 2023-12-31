@@ -7,6 +7,7 @@
     min-height: 350px;
     margin: auto;
     border-radius: 5%;
+
 }
 
 #main-inner {
@@ -19,11 +20,20 @@
 #display {
     height: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-color: white;
     margin: 10px;
     border-radius: 5%;
+    padding-right: 5px;
+}
+
+.display-all {
+    width: 24%;
+}
+
+#display-text {
+    text-align: right;
 }
 
 #clear {
